@@ -1,21 +1,21 @@
-html, body {
-    height: 100%;
-}
-
-html {
-    display: table;
-    margin: auto;
-}
-
 body {
-    display: table-cell;
-    vertical-align: middle;
     background: black;
     color: white;
 }
 .center{
-    height: 100px;
+    box-sizing: border-box;
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+    width: 50%;
     text-align: center;
-    vertical-align: middle;
+    
+    /* Center box in middle of screen */
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0); 
 }
+
+
 
